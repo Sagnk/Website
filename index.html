@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sdevop</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/Favicon.png" />
+
+  <!-- Bootstrap 5 CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/Style.css" />
+  <link rel="stylesheet" href="css/responsive-style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" class="img-fluid" alt="Sagnik Das Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i> <!-- Corrected FontAwesome icon -->
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="main-btn btn btn-primary" href="#contact">Hire me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>  
+  <!-- Navbar section exit -->
+
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center text-md-start">
+          <h6>Welcome</h6>
+          <h1>I'm Sagnik Das<br><span>CyberSecurity Specialist</h1>
+            <h3>Securing the Digital World, One Byte at a Time.</h3>
+          <div class="mt-4">
+            <a class="main-btn" href="./images/Sagnik_Das_Resume.pdf">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner section exit -->
+
+  <!-- About section -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="images/about.jpg" class="img-fluid rounded-3" alt="About Sagnik Das" />
+        </div>
+        <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+          <div class="my-3 mg-lg-0">
+            <span class="subtitle">My Details</span>
+            <h2>About Me</h2>
+            <p>
+              I am a Cybersecurity Enthusiast with a strong foundation in network security and technology. Dedicated to safeguarding digital assets and protecting individuals from cyber threats, I have hands-on experience in penetration testing, vulnerability scanning, and security compliance. Currently, I am pursuing a B.Tech in Computer Science and Systems Engineering, continuously enhancing my skills to stay ahead in the ever-evolving cybersecurity landscape.
+            </p>
+          </div>
+          <div class="pt-4">
+            <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                  aria-selected="true">Main Skill</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Certification-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-Certification" type="button" role="tab" aria-controls="pills-Certification"
+                  aria-selected="false">Certification</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Experience-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-Experience" type="button" role="tab" aria-controls="pills-Experience"
+                  aria-selected="false">Experience/Internship</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-Education" type="button" role="tab" aria-controls="pills-Education"
+                  aria-selected="false">Education</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                aria-labelledby="pills-skill-tab">
+                <div class="single-progress">
+                  <h6>Penetration Testing</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">60%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Threat Hunting & Vulnerability Analysis</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">70%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Communication & Problem-Solving</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">80%</span>
+                </div>
+                <div class="single-progress">
+                  <h6>Coding & Related tools knowledge</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="label">65%</span>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-Certification" role="tabpanel"
+                aria-labelledby="pills-Certification-tab">
+                <ul class="text-start ps-0">
+                  <li><a href="#">Coursera <span>- Google Cybersecurity Professional</span></a>2023</li>
+                  <li><a href="#">TryHackMe <span>- TryHackMe SOC Level 1</span></a>2025</li>
+                  <li><a href="#">Qualys<span>- Qualys Vulnerability Management Detection and Response Specialist</span></a>Validity: Feb 2025 - Feb 2027</li>
+                  <li><a href="#">CompTIA<span>- CompTIA Data Sys+</span></a> Expected: April 2025</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-Experience" role="tabpanel"
+                aria-labelledby="pills-Experience-tab">
+                <ul class="text-start ps-0">
+                  <li><a href="#">Acedemor <span>- Penetration Tester</span></a> 01 - 03/2024
+                  <li><a href="#">Forage Virtual Internships:<span></a>
+                    <li>Tata Cybersecurity Security Analyst </li>
+                    <li>AIG Shields Up Cybersecurity Program</li>
+                  <li>Mastercard Cybersecurity Experience<li></span> 2025</li></li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-Education" role="tabpanel"
+                aria-labelledby="pills-Education-tab">
+                <ul class="text-start ps-0">
+                  <li><a href="#">Kalinga Institute of Industrial Technology <span>- B.Tech in Computer Science & System Engineering</span></a> 2021-2025</li>
+                  <li><a href="#">Delhi Public School, North Kolkata <span>-  XII Science</span></a> 2019-2021</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section exit -->
+
+  <!-- Services section -->
+<section id="services" class="service_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4">
+        <span class="subtitle">What I can do for you</span>
+        <h2>My Services</h2>
+        <p>
+          I offer specialized cybersecurity solutions to help businesses and individuals secure their digital assets. From penetration testing and vulnerability assessments to digital forensics and security consulting, my expertise ensures robust protection against cyber threats. 
+          <br class="d-none d-md-block" />Let’s strengthen your security posture with tailored strategies and cutting-edge tools.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images\services\computer-solid.svg" alt="Penetration Testing" class="service-icon me-3" />
+            <h3>Penetration Testing (Web, Network & API Security)</h3>
+          </div>
+          <li>Identify and fix security vulnerabilities in websites, networks, and APIs.</li>
+          <li> Use industry-standard tools like Burp Suite, Nmap, Metasploit, and OWASP ZAP.</li>
+           <li>Deliver a detailed security assessment report with recommendations.</li>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images/services/server-solid.svg" alt="Vulnerability Assessment" class="service-icon me-3" />
+            <h3>Vulnerability Assessment & Risk Analysis</h3>
+          </div>
+          <li>Scan and analyze security weaknesses in web applications, servers, and enterprise networks.</li>
+          <li>Provide risk ratings based on CVSS standards.</li>
+          <li>Help businesses secure their infrastructure against cyber threats.</li>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images\services\firefox-browser-brands.svg" alt="OSINT Investigations" class="service-icon me-3" />
+            <h3>Cyber Threat Intelligence & OSINT Investigations</h3>
+          </div>
+          <li>Conduct deep web and dark web analysis to identify exposed data.</li>
+           <li>Perform social engineering risk assessments using OSINT techniques.</li> 
+           <li>Investigate potential cyber threats against individuals or businesses.</li>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images\services\lock-solid.svg" alt="Digital Forensics" class="service-icon me-3" />
+            <h3>Digital Forensics & Incident Response (DFIR)</h3>
+          </div>
+          <li>Investigate cyber incidents, recover lost data, and track attacker footprints.</li>
+            <li>Analyze logs and evidence using Autopsy, Volatility, and FTK Imager.</li>
+            <li>Provide forensic reports to support legal and compliance requirements.</li>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images/services/code-solid.svg" alt="Application Security Testing" class="service-icon me-3" />
+            <h3>Secure Code Review & Application Security Testing</h3>
+          </div>
+          <li>Analyze source code for security vulnerabilities and logical flaws.</li>
+            <li>Use static (SAST) and dynamic (DAST) analysis tools to detect security issues.</li>
+            <li>Recommend fixes for secure coding practices in web and mobile applications.</li>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card p-3">
+          <div class="d-flex align-items-start">
+            <img src="images/services/magnifying-glass-solid.svg" alt="Security Awareness Training" class="service-icon me-3" />
+            <h3>Security Awareness Training & Consultancy</h3>
+          </div>
+          <li>Educate employees on phishing, password security, and cyber hygiene.</li>
+            <li>Create custom security policies and compliance guides.</li>
+           <li>Offer one-on-one cybersecurity consulting for startups and small businesses.</li> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Services section exit -->
+
+  <!-- Portfolio section -->
+  <section id="portfolio" class="portfolio_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Complete Projects</span>
+          <h2>My Latest Projects</h2>
+          <p>
+            My projects showcase my expertise across cybersecurity, engineering, and 3D modeling. From conducting Vulnerability Assessments and Penetration Testing (VAPT) to designing an innovative solid-state CPU cooler, I tackle complex challenges with precision. I’ve also built smart city simulations using Blender and analyzed network security infrastructure, 
+            <br class="d-none d-md-block" />
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span class="portfolio-item"
+              style="background-image: url('images/portfolio/portfolio_image-1.jpg');"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span class="portfolio-item"
+              style="background-image: url('images/portfolio/portfolio_image-2.png');"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span class="portfolio-item"
+              style="background-image: url('images/portfolio/Portfolio_image-3.png');"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span class="portfolio-item"
+              style="background-image: url('images/portfolio/Portfolio_image-4.png');"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio section exit -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact_wrapper">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 order-w order-lg-1 pe-lg-5 text-lg-start text-center">
+                <span class="subtitle">My Complete Projects</span>
+                <h2>Hire Me</h2>
+
+                <div class="row call_details mb-4">
+                    <div class="col-sm-3 col-lg-4 fw-bold">Call me directly:</div>
+                    <div class="col-12 col-sm-10 col-md-9 col-lg-8 mb-3 mb-lg-2 text-center text-md-start">
+
+                        <a id="phone" aria-label="Call Sagnik Das">+91 98300 55942</a>
+                    </div>
+                    <div class="col-sm-3 col-lg-4 fw-bold">Contact Email:</div>
+                    <div class="col-12 col-sm-10 col-md-9 col-lg-8 mb-3 mb-lg-2 text-center text-md-start">
+                        <a href="mailto:dassagnik360@gmail.com" id="email" aria-label="Email Sagnik Das">dassagnik360@gmail.com</a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form id="contactForm" action="https://formsubmit.co/696c4d2568d0e99047f2a245d2ce48d3" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                
+                    <div class="mb-3">
+                        <label for="name" class="visually-hidden">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name.." autocomplete="off" required />
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="number" class="visually-hidden">Your Number</label>
+                        <input type="tel" class="form-control" id="number" name="number" placeholder="e.g. +91XXXXXXXXXX" pattern="^\+\d{1,3}[-\s]?\d{10}$" autocomplete="off" required />
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="emailInput" class="visually-hidden">Your Email</label>
+                        <input type="email" class="form-control" id="emailInput" name="email" placeholder="Your Email.." autocomplete="off" required />
+                    </div>
+                
+                    <div class="mb-3">
+                        <label for="message" class="visually-hidden">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write a message..." autocomplete="off" required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn btn-primary w-100" id="submitButton">Submit</button>
+                </form>
+            </div>
+            <!-- Contact Image Section -->
+            <div class="col-lg-6 order-2 order-lg-2 text-center">
+                <img src="images/Contact.png" class="img-fluid rounded shadow-lg" alt="Contact Sagnik Das">
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Contact Section exit -->
+
+  <!-- Footer section -->
+  <section class="footer_wrapper mt-3 mt-md-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Logo Section -->
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <div class="footer-logo mb-3 mb-md-0">
+            <img src="images/logo.png" class="img-fluid" alt="Footer Logo" />
+          </div>
+        </div>
+
+        <!-- Social Icons Section -->
+        <div class="col-lg-4 col-md-6">
+          <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+            <li><a href="https://www.linkedin.com/in/Sagnikds"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://tryhackme.com/p/dassagnik360"><i class="fa-solid fa-cube"></i></a></li>
+            <li><a href="https://github.com/Sagnk"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="col-lg-4 col-md-12">
+          <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0">Copyright © 2025 <a href="#">DΣSYNC</a>. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer section exit -->
+
+  <!-- Bootstrap 5 JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
