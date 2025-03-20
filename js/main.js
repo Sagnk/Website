@@ -90,19 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-//Analyhstucs
-import { Analytics } from "@vercel/analytics/react";
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-}
-
-export default MyApp;
 
 
 document.querySelectorAll('a[href="#contact"]').forEach((anchor) => {
